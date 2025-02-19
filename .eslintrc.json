@@ -26,7 +26,6 @@
     "plugin:jsx-a11y/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
-    "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended"
   ],
   "plugins": [
@@ -35,7 +34,6 @@
     "jsx-a11y",
     "simple-import-sort",
     "unused-imports",
-    "tailwindcss",
     "prettier"
   ],
   "parserOptions": {
@@ -69,7 +67,6 @@
       "WithStatement"
     ], // Overrides Airbnb configuration and enable no-restricted-syntax
     "import/prefer-default-export": "off", // Named export is easier to refactor automatically
-    "tailwindcss/no-custom-classname": "off", // Disabled otherwise nightmare to allow each custom tailwind classes
     "simple-import-sort/imports": "error", // Import configuration for `eslint-plugin-simple-import-sort`
     "simple-import-sort/exports": "error", // Export configuration for `eslint-plugin-simple-import-sort`
     "unused-imports/no-unused-imports": "error",
